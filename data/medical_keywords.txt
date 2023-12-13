@@ -1,0 +1,125 @@
+diabetes
+hypertension
+asthma
+cancer
+arthritis
+migraine
+allergy
+obesity
+depression
+anxiety
+schizophrenia
+tuberculosis
+malaria
+hepatitis
+hiv
+stroke
+heart attack
+covid-19
+dengue
+cholera
+metformin
+insulin
+ibuprofen
+paracetamol
+amoxicillin
+lisinopril
+simvastatin
+levothyroxine
+gabapentin
+aspirin
+warfarin
+prednisone
+tramadol
+sertraline
+atorvastatin
+omeprazole
+albuterol
+losartan
+ciprofloxacin
+azithromycin
+diagnosed
+mri
+ultrasound
+biopsy
+blood test
+ct scan
+x-ray
+echocardiogram
+colonoscopy
+mammography
+pap smear
+endoscopy
+angiography
+electrocardiogram
+bone scan
+allergy test
+skin biopsy
+thyroid function test
+urinalysis
+lumbar puncture
+patient
+physician
+nurse
+pharmacist
+hospital
+surgeon
+psychiatrist
+dentist
+dermatologist
+pediatrician
+oncologist
+cardiologist
+gynecologist
+neurologist
+ophthalmologist
+orthopedic
+radiologist
+anesthesiologist
+pathologist
+urologist
+prescribed
+dosage
+side effects
+contraindications
+over-the-counter
+drug interaction
+medication adherence
+pharmacodynamics
+pharmacokinetics
+clinical trial
+drug resistance
+generic drugs
+vaccine
+antibiotics
+antivirals
+antifungals
+antidepressants
+chemotherapeutics
+immunosuppressants
+anxiolytics
+symptom
+therapy
+diagnosis
+treatment
+surgery
+infection
+chronic
+acute
+prognosis
+rehabilitation
+immunization
+screening
+prevention
+nutrition
+exercise
+mental health
+public health
+radiation therapy
+transplant
+palliative care
+first aid
+emergency
+triage
+vital signs
+medical history
