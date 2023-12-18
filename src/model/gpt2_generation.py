@@ -43,6 +43,7 @@ def generate_text(prompt):
     return results
 
 '''
+
 text = "Your input text here"
 generated_texts = generate_text(text)
 print(generated_texts)

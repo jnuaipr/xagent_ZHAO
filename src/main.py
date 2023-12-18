@@ -1,22 +1,29 @@
 from mathematical_processing import normalize_sum
 from mathematical_processing import TF_Google_Weighted
 from mathematical_processing import number_to_text
-from text_analysis import finance_text_analysis, jurisprudence_text_analysis, medical_text_analysis, TF_IDF_jurisprudence,TF_IDF_medical,TF_IDF_finance
+from text_analysis import Google_text_analysis, TF_IDF
 
 text = "Recent advances in cardiology have led to new therapies for heart diseases antibiotics immunosuppressants Political Action Committee Plea Bargain,"
 
 
+with open('C:/workspace/code/xagent_zhao/data/financial_keywords.txt', 'r') as file:
+    financial_keywords = file.read().splitlines()
+with open('C:/workspace/code/xagent_zhao/data/legal_keywords.txt', 'r') as file:
+    legal_keywords = file.read().splitlines()
+with open('C:/workspace/code/xagent_zhao/data/medical_keywords.txt', 'r') as file:
+    medical_keywords = file.read().splitlines()
+
 
 # 计算在谷歌发布的模型的隶属度
-membership_score1_1 = medical_text_analysis.calculate_domain_affinity(text)
-membership_score2_1 = jurisprudence_text_analysis.calculate_domain_affinity(text)
-membership_score3_1 = finance_text_analysis.calculate_domain_affinity(text)
+membership_score1_1 = Google_text_analysis.calculate_domain_affinity(text, medical_keywords)
+membership_score2_1 = Google_text_analysis.calculate_domain_affinity(text, legal_keywords)
+membership_score3_1 = Google_text_analysis.calculate_domain_affinity(text, financial_keywords)
 
 
 # 计算在TF_IDF计算下的隶属度
-membership_score1_2 = TF_IDF_medical.medical_membership_score_normalized(text)
-membership_score2_2 = TF_IDF_jurisprudence.legal_membership_score_normalized(text)
-membership_score3_2 = TF_IDF_finance.finance_membership_score_normalized(text)
+membership_score1_2 = TF_IDF.domain_membership_score_normalized(text,"medical")
+membership_score2_2 = TF_IDF.domain_membership_score_normalized(text,"legal")
+membership_score3_2 = TF_IDF.domain_membership_score_normalized(text,"financial")
 
 # 融合两种隶属度方式
 membership_score1 = TF_Google_Weighted.TF_Google_Weighted_func(membership_score1_1, membership_score1_2)
@@ -32,7 +39,7 @@ normalized_values = normalize_sum.normalize_sum_to_one(membership_score1, member
 membership_score1 = normalized_values[0]
 membership_score2 = normalized_values[1]
 membership_score3 = normalized_values[2]
-membership = number_to_text.plot_gaussians_with_point_and_return_membership(membership_score1)  # 输入x值
+membership = number_to_text.plot_gaussians_with_optimized_labels(membership_score1)  # 输入x值
 print("在医学领域的隶属度是", membership)
 print("隶属度于医学的分数:", membership_score1)
 print("隶属度于法学的分数:", membership_score2)
