@@ -1,0 +1,146 @@
+Stock
+Bond
+Derivative
+Forex
+Commodity
+Market Capitalization
+Dividend
+Yield
+IPO
+ETF
+Mutual Fund
+Hedge Fund
+Private Equity
+Venture Capital
+REIT
+Portfolio
+Asset Allocation
+Diversification
+Risk Management
+Volatility
+Return on Investment
+Interest Rate
+Credit Rating
+Inflation
+Deflation
+Quantitative Easing
+Fiscal Policy
+Monetary Policy
+Economic Indicator
+GDP
+investment
+Consumer Price Index
+Unemployment Rate
+Balance Sheet
+Income Statement
+Cash Flow
+Financial Statement Analysis
+Due Diligence
+Mergers and Acquisitions
+Leveraged Buyout
+Hostile Takeover
+Arbitrage
+Short Selling
+Margin Trading
+Options
+Futures
+Swaps
+Technical Analysis
+Fundamental Analysis
+Chart Patterns
+Trading Strategy
+Algorithmic Trading
+High-Frequency Trading
+Market Order
+Limit Order
+Stop Loss Order
+Day Trading
+Swing Trading
+Position Trading
+Value Investing
+Growth Investing
+Income Investing
+Socially Responsible Investing
+Asset Management
+Wealth Management
+Financial Planning
+Estate Planning
+Tax Planning
+Retirement Planning
+Insurance
+Annuity
+Banking
+Central Bank
+Commercial Bank
+Investment Bank
+Retail Banking
+Corporate Banking
+Online Banking
+Mobile Banking
+Credit Card
+Debit Card
+Electronic Payment
+Blockchain
+Cryptocurrency
+Bitcoin
+Ethereum
+ICO
+Tokenization
+Wallet
+Digital Currency
+Fintech
+Insurtech
+Regtech
+Robo-Advisor
+Crowdfunding
+Peer-to-Peer Lending
+Microfinance
+Financial Inclusion
+Anti-Money Laundering
+Know Your Customer
+Compliance
+Securities and Exchange Commission
+Financial Conduct Authority
+Basel Accords
+Sarbanes-Oxley Act
+Dodd-Frank Act
+Financial Crisis
+Subprime Mortgage
+Credit Default Swap
+Collateralized Debt Obligation
+Liquidity
+Solvency
+Bankruptcy
+Insolvency
+Foreclosure
+Recession
+Depression
+Stagflation
+Hyperinflation
+Economic Bubble
+Bear Market
+Bull Market
+Market Correction
+Economic Cycle
+Business Cycle
+Supply Chain Finance
+Trade Finance
+Working Capital
+Capital Structure
+Leverage
+Cost of Capital
+Discount Rate
+Net Present Value
+Internal Rate of Return
+Payback Period
+Capital Budgeting
+Financial Modeling
+Valuation
+Equity Research
+Credit Analysis
+Risk Assessment
+Due Diligence
+Corporate Governance
+Stakeholder
+Shareholder Value
+Corporate Social Responsibility
